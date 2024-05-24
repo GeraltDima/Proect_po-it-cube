@@ -1,6 +1,6 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton
 
-#============================================================================
+
 menu_kb1 = ReplyKeyboardMarkup(keyboard=[
         [KeyboardButton(text="Направления")]
 ],
@@ -9,9 +9,9 @@ menu_kb1 = ReplyKeyboardMarkup(keyboard=[
 )
 
 menu_kb2 = ReplyKeyboardMarkup(keyboard=[
-        [KeyboardButton(text="👨‍💻Программирование на Python"), KeyboardButton(text="🥽VR/AR-разработка")],
+        [KeyboardButton(text="👨‍💻Python"), KeyboardButton(text="🥽VR/AR")],
         [KeyboardButton(text="🌐Веб-разработка"), KeyboardButton(text="📱Мобильная разработка")],
-        [KeyboardButton(text="⚙️Системное администрирование"), KeyboardButton(text="✈️Беспилотные авиационные системы")],
+        [KeyboardButton(text="⚙️Системное администрирование"), KeyboardButton(text="✈️Беспилотные системы")],
         [KeyboardButton(text="🧊3D-моделирование"), KeyboardButton(text="🎓Как поступить в IT-Cube")]
 ],
         resize_keyboard=True,
@@ -21,7 +21,7 @@ menu_kb2 = ReplyKeyboardMarkup(keyboard=[
 inline_kb = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton(text="📝Записаться на обучение", url="https://it-cube39.ru/sign-up")]
 ])
-#============================================================================
+
 
 #============================================================================
 inline_kb1 = InlineKeyboardMarkup(inline_keyboard=[
